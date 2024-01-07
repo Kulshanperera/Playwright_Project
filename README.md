@@ -1,4 +1,5 @@
 Here is the test case and it's results
+
 **Test case 02**
 ![image](https://github.com/Kulshanperera/Playwright_Project/assets/47887463/2b3a115c-07fd-4131-99a0-63ed0e7df347)
 
