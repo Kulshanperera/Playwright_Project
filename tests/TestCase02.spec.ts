@@ -27,7 +27,7 @@ test.only('Validate error messages in registor funtion', async ({ page }) => {
   await page.goto('https://onlinelibrary.wiley.com/');
 
   // verfy page title for  
-  await expect(page).toHaveTitle("Wiley Online Library | Scientific research articles, journals, books, and reference works",{timeout:5000});//verify page title
+  await expect(page).toHaveTitle("Wiley Online Library | Scientific research articles, journals, books, and reference works",{timeout:2000});//verify page title
   await page.locator(LoginSignUp_BTN).click();//Clcik login register button
   await expect(page.locator(PopupTitlt)).toHaveText("Log in to Wiley Online Library",{timeout:2000});
   await page.locator(NewUser).click();
